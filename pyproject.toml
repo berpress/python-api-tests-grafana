@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-api-tests-grafana"
+version = "0.1.0"
+description = "Python api tests with Grafana"
+authors = ["alexanderlozovoy <a.litovsky@smartypay.io >"]
+readme = "README.md"
+packages = [{include = "python_api_tests_grafana"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.0"
+requests = "^2.31.0"
+test-swagger-coverage = "^2.1.59"
+faker = "^19.2.0"
+pydantic = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
